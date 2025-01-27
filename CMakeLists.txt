@@ -52,6 +52,7 @@ target_link_libraries(led-animations
         hardware_pwm
         pico_stdio_usb
         pico_bootrom
+        hardware_uart
         pico_stdlib)
 
 # Add the standard include files to the build
